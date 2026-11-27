@@ -1,0 +1,30 @@
+C:\labs\govno\bin\Debug\net10.0\govno.exe
+C:\labs\govno\bin\Debug\net10.0\govno.deps.json
+C:\labs\govno\bin\Debug\net10.0\govno.runtimeconfig.json
+C:\labs\govno\bin\Debug\net10.0\govno.dll
+C:\labs\govno\bin\Debug\net10.0\govno.pdb
+C:\labs\govno\obj\Debug\net10.0\govno.GeneratedMSBuildEditorConfig.editorconfig
+C:\labs\govno\obj\Debug\net10.0\govno.AssemblyInfoInputs.cache
+C:\labs\govno\obj\Debug\net10.0\govno.AssemblyInfo.cs
+C:\labs\govno\obj\Debug\net10.0\govno.csproj.CoreCompileInputs.cache
+C:\labs\govno\obj\Debug\net10.0\govno.dll
+C:\labs\govno\obj\Debug\net10.0\refint\govno.dll
+C:\labs\govno\obj\Debug\net10.0\govno.pdb
+C:\labs\govno\obj\Debug\net10.0\govno.genruntimeconfig.cache
+C:\labs\govno\obj\Debug\net10.0\ref\govno.dll
+C:\labs\C# labs\obj\Debug\net10.0\govno.GeneratedMSBuildEditorConfig.editorconfig
+C:\labs\C# labs\obj\Debug\net10.0\govno.AssemblyInfoInputs.cache
+C:\labs\C# labs\obj\Debug\net10.0\govno.AssemblyInfo.cs
+C:\labs\C# labs\obj\Debug\net10.0\govno.csproj.CoreCompileInputs.cache
+C:\labs\C# labs\obj\Debug\net10.0\govno.dll
+C:\labs\C# labs\obj\Debug\net10.0\refint\govno.dll
+C:\labs\C# labs\obj\Debug\net10.0\govno.pdb
+C:\labs\C# labs\bin\Debug\net10.0\govno.exe
+C:\labs\C# labs\bin\Debug\net10.0\govno.deps.json
+C:\labs\C# labs\bin\Debug\net10.0\govno.runtimeconfig.json
+C:\labs\C# labs\bin\Debug\net10.0\govno.dll
+C:\labs\C# labs\bin\Debug\net10.0\govno.pdb
+C:\labs\C# labs\obj\Debug\net10.0\govno.genruntimeconfig.cache
+C:\labs\C# labs\obj\Debug\net10.0\ref\govno.dll
+C:\labs\C# labs\bin\Debug\net10.0\govno.xml
+C:\labs\C# labs\obj\Debug\net10.0\govno.xml

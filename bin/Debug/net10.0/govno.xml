@@ -1,0 +1,211 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>govno</name>
+    </assembly>
+    <members>
+        <member name="T:sharp.Arrays">
+            <summary>
+            Класс для работы с массивами.
+            </summary>
+        </member>
+        <member name="F:sharp.Arrays.n">
+            <summary>
+            Длина массива.
+            </summary>
+        </member>
+        <member name="F:sharp.Arrays.arr">
+            <summary>
+            Массев.
+            </summary>
+        </member>
+        <member name="M:sharp.Arrays.getN">
+            <summary>
+            Getter для длины массива.
+            </summary>
+            <returns>Значение н'ки.</returns>
+        </member>
+        <member name="M:sharp.Arrays.#ctor">
+            <summary>
+            Конструтор 1. Без параметров(базовые).
+            </summary>
+        </member>
+        <member name="M:sharp.Arrays.#ctor(System.Int32)">
+            <summary>
+            Конструтор 2. С одним параметром.
+            </summary>
+            <param name="n">Длина массива.</param>
+        </member>
+        <member name="M:sharp.Arrays.GetArr(System.Int32)">
+            <summary>
+            Заполнение массива рандомными значениями и их возврат.
+            </summary>
+            <param name="n">Длина массива.</param>
+            <returns>Заполненный массив.</returns>
+        </member>
+        <member name="M:sharp.Arrays.Swap(System.Int32@,System.Int32@)">
+            <summary>
+            Свааап.
+            </summary>
+            <param name="e1">Ссылка на первую переменную.</param>
+            <param name="e2">Ссылка на вторую переменную.</param>
+        </member>
+        <member name="M:sharp.Arrays.BubbleSort(System.Int32[])">
+            <summary>
+            Сортировка пузырьком.
+            </summary>
+            <param name="arr">Массивчик.</param>
+            <returns>Отсортированный массив.</returns>
+        </member>
+        <member name="M:sharp.Arrays.InsertionSort(System.Int32[])">
+            <summary>
+            Сортировка вставками.
+            </summary>
+            <param name="arr">Массивчик.</param>
+            <returns>Отсортированный массив.</returns>
+        </member>
+        <member name="M:sharp.Arrays.CopyingArr(System.Int32[])">
+            <summary>
+            Копирка массива.
+            </summary>
+            <param name="arr">Массивчик.</param>
+            <returns>Скопированный массив.</returns>
+        </member>
+        <member name="T:sharp.Function">
+            <summary>
+            Статический класс, содержащий логику игры по отгадыванию значения математической функции.
+            </summary>
+        </member>
+        <member name="F:sharp.Function.Pi">
+            <summary>
+            Нуу, константа числа Пи.
+            </summary>
+        </member>
+        <member name="M:sharp.Function.Answer(System.Int32,System.Int32)">
+            <summary>
+            Вычисляет значение математической функции по двум аргументам и округляет до 2 знаков.
+            </summary>
+            <param name="a">Первое число (аргумент a).</param>
+            <param name="b">Второе число (аргумент b).</param>
+            <returns>Вычисленное значение функции.</returns>
+        </member>
+        <member name="T:sharp.InputCheck">
+            <summary>
+            Статический класс, содержащий логику проверки вводимых значений.
+            </summary>
+        </member>
+        <member name="M:sharp.InputCheck.TakeNumber">
+            <summary>
+            Забирает у пользователя его заветное числишко.
+            </summary>
+            <returns>Возвращает число, введенное пользователем.</returns>
+        </member>
+        <member name="M:sharp.InputCheck.IsCorrectNumber(System.Double)">
+            <summary>
+            Сравнение результата с преполагаемым числом.
+            </summary>
+            <param name="result">Результат выполнения функции.</param>
+            <returns>Вычисленное значение функции.</returns>
+        </member>
+        <member name="T:sharp.Tetrisik">
+            <summary>
+            Класс по игре в Тетрис (переменные и методы основной логики).
+            </summary>
+        </member>
+        <member name="F:sharp.Tetrisik.fieldSize">
+            <summary>
+            Константа ребра поля.
+            </summary>
+        </member>
+        <member name="P:sharp.Tetrisik.field">
+            <summary>
+            Поле.
+            </summary>
+        </member>
+        <member name="P:sharp.Tetrisik.currentShape">
+            <summary>
+            Падающая фигура.
+            </summary>
+        </member>
+        <member name="P:sharp.Tetrisik.currentX">
+            <summary>
+            Значение по Х падающей фигуры.
+            </summary>
+        </member>
+        <member name="P:sharp.Tetrisik.currentY">
+            <summary>
+            Значение по У падающей фигуры.
+            </summary>
+        </member>
+        <member name="P:sharp.Tetrisik.score">
+            <summary>
+            Набранные очки.
+            </summary>
+        </member>
+        <member name="P:sharp.Tetrisik.gameOver">
+            <summary>
+            Статус игры.
+            </summary>
+        </member>
+        <member name="P:sharp.Tetrisik.rand">
+            <summary>
+            Переменная для выбора рандомной следующей фигуры.
+            </summary>
+        </member>
+        <member name="P:sharp.Tetrisik.Shapes">
+            <summary>
+            Фигуры на выбор.
+            </summary>
+        </member>
+        <member name="M:sharp.Tetrisik.InitializeField">
+            <summary>
+            Метод инициализации поля и статуса игры.
+            </summary>
+        </member>
+        <member name="M:sharp.Tetrisik.HandleInput(System.ConsoleKey)">
+            <summary>
+            Метод, чтобы кнопошки жались.
+            </summary>
+        </member>
+        <member name="M:sharp.Tetrisik.UpdateState">
+            <summary>
+            Обновление статуса всей игры.
+            </summary>
+        </member>
+        <member name="M:sharp.Tetrisik.CheckGameOver">
+            <summary>
+            Обновления статуса поражения.
+            </summary>
+        </member>
+        <member name="M:sharp.Tetrisik.SpawnPiece">
+            <summary>
+            Создание фигуры.
+            </summary>
+        </member>
+        <member name="M:sharp.Tetrisik.CheckCollision(System.Int32[0:,0:],System.Int32,System.Int32)">
+            <summary>
+            Проверка на биение фигуры об край поля в конвульсиях.
+            </summary>
+            <param name="shape">Массив фигур на выбор.</param>
+            <param name="x">Позиция по Х.</param>
+            /// <param name="y">Позиция по У.</param>
+            <returns>Выводит да/нет на проверку коллизии.</returns>
+        </member>
+        <member name="M:sharp.Tetrisik.FixatePiece">
+            <summary>
+            Фиксация фигуры.
+            </summary>
+        </member>
+        <member name="M:sharp.Tetrisik.ClearLines">
+            <summary>
+            Очищение линий после заполнения.
+            </summary>
+        </member>
+        <!-- Badly formed XML comment ignored for member "M:sharp.Tetrisik.RotateShape(System.Int32[0:,0:])" -->
+        <member name="M:sharp.Tetrisik.DrawField">
+            <summary>
+            Отрисовка поля.
+            </summary>
+        </member>
+    </members>
+</doc>
